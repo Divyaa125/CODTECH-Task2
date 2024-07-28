@@ -6,7 +6,8 @@ Duration: JUNE TO AUGUST 2024
 Mentor: SRAVANI GOUNI
 
 **OVERVIEW OF THE PROJECT**
-![image](https://github.com/user-attachments/assets/fb201790-117b-4a7c-9d17-c9012ff78903)
+![image](https://github.com/user-attachments/assets/3d5b2870-53c2-4304-a64a-5a492dcf350d)
+
 
 
 **OBJECTIVE **
