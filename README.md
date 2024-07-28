@@ -6,6 +6,8 @@ Duration: JUNE TO AUGUST 2024
 Mentor: SRAVANI GOUNI
 
 **OVERVIEW OF THE PROJECT**
+![image](https://github.com/user-attachments/assets/fb201790-117b-4a7c-9d17-c9012ff78903)
+
 
 **OBJECTIVE **
 The objective of this project is to design FSM(FINITE STATE MACHINE) in verilog or vhdl language 
