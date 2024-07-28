@@ -17,3 +17,6 @@ and to write a tstbench to test the design's correctness.
 
 **TECHNOLOGY USED**
 . Xilinx ise 14.7
+
+
+
