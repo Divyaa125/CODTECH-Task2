@@ -1,0 +1,31 @@
+`timescale 1ns / 1ps
+
+module fsm1101_tb();
+reg CLK,RST,IN;
+wire OUT;
+
+fsm_1101 DUT( .clk(CLK),.rst(RST), .in(IN), .out(OUT) );
+
+initial begin
+CLK = 1'b0;
+RST = 1'b1;
+#15 RST = 1'b0;
+end
+
+initial forever begin 
+   #5 CLK = ~CLK;
+	end
+	
+	initial begin 
+	$monitor ("%t || in = %b || out = %b || state = %d",$time,IN , OUT , DUT.state);
+	$dumpfile("FSM_1101.vcd");
+	$dumpvars;
+	end 
+	
+	initial begin 
+	   #15 IN =0;
+		#10 IN =1; #10 IN =1; #10 IN =0; #10 IN =1; #10 IN =1; #10 IN =0;
+		#20 $finish;
+		end
+	endmodule
+	
